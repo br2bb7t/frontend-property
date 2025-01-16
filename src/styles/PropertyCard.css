@@ -1,0 +1,82 @@
+.property-card {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 600px) {
+  .property-card {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .property-image {
+    border-radius: 4px;
+  }
+
+  th, td {
+    font-size: 14px;
+  }
+
+  .property-card table {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .property-card {
+    padding: 15px;
+  }
+
+  .property-image {
+    border-radius: 6px;
+  }
+
+  th, td {
+    font-size: 15px;
+  }
+
+  .property-card table {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .property-card {
+    max-width: 800px;
+  }
+
+  th, td {
+    font-size: 16px;
+  }
+
+  .property-card table {
+    font-size: 15px;
+  }
+}
