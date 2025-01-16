@@ -2,11 +2,21 @@
 
 This project is a simple React web application that allows users to view properties for sale, with information such as name, address, description, and images. The app is built using **React** and follows best practices for both front-end development and code structure.
 
+---
+
 ![Diagrama-Secuencia](https://github.com/user-attachments/assets/46f5d391-bc23-4d42-a3c6-46c587b35ef9)
+
+---
 
 ## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+---
+
+![Diagrama-C4](https://github.com/user-attachments/assets/31ccfee9-9ade-408c-8b41-c4663b9141d8)
+
+---
 
 ### Prerequisites
 
